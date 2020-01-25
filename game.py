@@ -25,10 +25,8 @@ class Game:
         return self.p1Went and self.p2Went
 
     def winner(self):
-
         p1 = self.moves[0].upper()
         p2 = self.moves[1].upper()
-
         c1 = in_number(p1)
         c2 = in_number(p2)
 
@@ -36,22 +34,7 @@ class Game:
         # scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock,
         # and as it always has, rock crushes scissors."
         win = [[-1, 1, 0, 0, 1], [0, -1, 1, 1, 0], [1, 0, -1, 0, 1], [1, 0, 1, -1, 0], [0, 1, 0, 1, -1]]
-
-        winner = win[c1][c2]
-        # if p1 == "ROCK" and p2 == "SCISSOR":
-        #     winner = 0
-        # elif p1 == "SCISSOR" and p2 == "ROCK":
-        #     winner = 1
-        # elif p1 == "PAPER" and p2 == "ROCK":
-        #     winner = 0
-        # elif p1 == "ROCK" and p2 == "PAPER":
-        #     winner = 1
-        # elif p1 == "SCISSOR" and p2 == "PAPER":
-        #     winner = 0
-        # elif p1 == "PAPER" and p2 == "SCISSOR":
-        #     winner = 1
-
-        return winner
+        return win[c1][c2]
 
     def reset_went(self):
         self.p1Went = False
