@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1Ws9LgfubIYGGQ24vJpZWOptsK8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -17,20 +24,62 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+  <component name="RunManager" selected="Python.client">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python" singleton="false">
       <module name="Multiplayer.RPSLS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../Multiplayer.RPSLS/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MiniGames/Network" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MiniGames/Network/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="Multiplayer.RPSLS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../Multiplayer.RPSLS/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Multiplayer.RPSLS" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Multiplayer.RPSLS/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="Multiplayer.RPSLS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../Multiplayer.RPSLS/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Multiplayer.RPSLS" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Multiplayer.RPSLS/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,6 +131,10 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.server" />
+      <item itemvalue="Python.client" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -109,9 +162,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="239" key="SettingsEditor" timestamp="1579929251941">
+    <state x="0" y="262" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579941912103">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state x="0" y="262" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1579941912103" />
+    <state width="1046" height="344" key="GridCell.Tab.0.bottom" timestamp="1579941931968">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1046" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1579941931968" />
+    <state width="1046" height="344" key="GridCell.Tab.0.center" timestamp="1579941931967">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1046" height="344" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1579941931967" />
+    <state width="1046" height="344" key="GridCell.Tab.0.left" timestamp="1579941931966">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1046" height="344" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1579941931966" />
+    <state width="1046" height="344" key="GridCell.Tab.0.right" timestamp="1579941931967">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1046" height="344" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1579941931967" />
+    <state x="-1459" y="239" key="SettingsEditor" timestamp="1579930472110">
+      <screen x="-1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="-1459" y="239" key="SettingsEditor/-1920.0.1920.1200/0.0.1920.1200@-1920.0.1920.1200" timestamp="1579930472110" />
     <state x="461" y="239" key="SettingsEditor/-1920.0.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1579929251941" />
   </component>
 </project>
