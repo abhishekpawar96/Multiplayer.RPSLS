@@ -1,6 +1,7 @@
+import pickle
 import socket
 from _thread import *
-import pickle
+
 from game import Game
 
 server = "10.52.99.220"

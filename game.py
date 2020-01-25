@@ -26,25 +26,46 @@ class Game:
 
     def winner(self):
 
-        p1 = self.moves[0].upper()[0]
-        p2 = self.moves[1].upper()[0]
+        p1 = self.moves[0].upper()
+        p2 = self.moves[1].upper()
 
-        winner = -1
-        if p1 == "R" and p2 == "S":
-            winner = 0
-        elif p1 == "S" and p2 == "R":
-            winner = 1
-        elif p1 == "P" and p2 == "R":
-            winner = 0
-        elif p1 == "R" and p2 == "P":
-            winner = 1
-        elif p1 == "S" and p2 == "P":
-            winner = 0
-        elif p1 == "P" and p2 == "S":
-            winner = 1
+        c1 = in_number(p1)
+        c2 = in_number(p2)
+
+        # "Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors,
+        # scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock,
+        # and as it always has, rock crushes scissors."
+        win = [[-1, 1, 0, 0, 1], [0, -1, 1, 1, 0], [1, 0, -1, 0, 1], [1, 0, 1, -1, 0], [0, 1, 0, 1, -1]]
+
+        winner = win[c1][c2]
+        # if p1 == "ROCK" and p2 == "SCISSOR":
+        #     winner = 0
+        # elif p1 == "SCISSOR" and p2 == "ROCK":
+        #     winner = 1
+        # elif p1 == "PAPER" and p2 == "ROCK":
+        #     winner = 0
+        # elif p1 == "ROCK" and p2 == "PAPER":
+        #     winner = 1
+        # elif p1 == "SCISSOR" and p2 == "PAPER":
+        #     winner = 0
+        # elif p1 == "PAPER" and p2 == "SCISSOR":
+        #     winner = 1
 
         return winner
 
     def reset_went(self):
         self.p1Went = False
         self.p2Went = False
+
+
+def in_number(c):
+    if c == "ROCK":
+        return 0
+    elif c == "PAPER":
+        return 1
+    elif c == "SCISSOR":
+        return 2
+    elif c == "LIZARD":
+        return 3
+    else:
+        return 4
